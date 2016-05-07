@@ -122,9 +122,9 @@
                 <form class="composeChair">
                     <select name="type">
                         <option value="">wybierz rodzaj</option>
-                        <option value="1">Chair Clair</option>
-                        <option value="2">Chair Margarita</option>
-                        <option value="3">Chair Selena</option>
+                        <option value="1" price="200">Chair Clair</option>
+                        <option value="2" price="400">Chair Margarita</option>
+                        <option value="3" price="300">Chair Selena</option>
                     </select>
                     <select name="color">
                         <option value="">wybierz kolor</option>
@@ -134,12 +134,12 @@
                     </select>
                     <select name="material">
                         <option value="">wybierz materiał</option>
-                        <option value="1">skóra</option>
-                        <option value="2">tkanina</option>
+                        <option value="1" price="200">skóra</option>
+                        <option value="2" price="0">tkanina</option>
                     </select>
                     <label class="check">
-                    <input type="checkbox" value="remember">Transport
-                  </label>
+                        <input type="checkbox" class="checkbox" value="remember" price="80">Transport
+                    </label>
                 </form>
             </div>
             <img src="images/red.png">
@@ -148,13 +148,19 @@
                     PODSUMOWANIE
                 </div>
                 <div class="board">
+                    <p class="price1"></p>
+                    <p class="price2"></p>
+                    <p class="price3"></p>
 
                 </div>
                 <div class="board2">
-                  Twój fotel
+                    <h2 class="yourChair">Twój fotel</h2>
+                    <p class="material"></p>
+                    <p class="transport"></p>
                 </div>
                 <div class="board3">
-                  SUMA
+                    SUMA
+                    <p class="totalSum"></p>
                 </div>
                 <a class="button">ZAMAWIAM</a>
             </div>

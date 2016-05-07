@@ -168,8 +168,8 @@ header {
     margin-top: 20px;
     margin-bottom: 100px;
 }
-.unvisible{
-  display: none;
+.unvisible {
+    display: none;
 }
 h3 {
     background-color: rgba(255, 255, 255, 0.3);
@@ -314,77 +314,92 @@ sup {
 /*
     FOURTH SECTION
 */
-.veryLightgrey{
-  background-color: #F8F8F8;
-  overflow: auto;
+
+.veryLightgrey {
+    background-color: #F8F8F8;
+    overflow: auto;
 }
-.compose{
-  float: left;
-  width: 300px;
-  height: 500px;
+.compose {
+    float: left;
+    width: 300px;
+    height: 500px;
 }
-.compose + img{
-  float: left;
-  margin: 0 -100px;
+.compose + img {
+    float: left;
+    margin: 0 -100px;
 }
-select{
-  margin-bottom: 30px;
-  border: 1px solid rgb(36, 186, 159);
-  height: 40px;
-  width: 250px;
-  clear: both;
-  position: relative;
-  float: left;
+select {
+    margin-bottom: 30px;
+    border: 1px solid rgb(36, 186, 159);
+    height: 40px;
+    width: 250px;
+    clear: both;
+    position: relative;
+    float: left;
 }
-.check{
-  position: relative;
-  float: left;
-  clear: both;
+.check {
+    position: relative;
+    float: left;
+    clear: both;
 }
 select [value=""] {
-    color: blue;
+    color: lightgrey;
 }
-select{
-  color: grey;
+.composeChair {
+    color: grey;
 }
-.summary{
-  float: right;
-  position: relative;
-  float: left;
-  width: 300px;
-  height: 500px;
+.summary {
+    float: right;
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 500px;
 }
-.summary .price{
-  float: right;
-  text-align: right;
+.summary p{
+  margin: 5px;
 }
-[class*="board"]{
-  background-color: white;
+.summary .price {
+    float: right;
+    text-align: right;
+}
+[class*="board"] {
+    background-color: white;
     float: right;
     margin-left: 5px;
     margin-bottom: 5px;
 }
-.board{
-  width: 120px;
-  height: 100px;
+.board {
+    width: 120px;
+    height: 100px;
+    text-align: right;
+    color: rgb(36, 186, 159);
 }
-.board2{
-  width: 130px;
-  height: 100px;
-  color:  rgb(36, 186, 159);
-  font-weight: bolder;
+.totalSum {
+    float: right;
+    color: rgb(36, 186, 159);
 }
-.board3{
-  width: 255px;
-  height: 80px;
+.board2 {
+    width: 130px;
+    height: 100px;
 }
-.summary .button{
-  position: absolute;
-  margin: 30px;
-  padding: 10px 50px;
-  left: 30px;
-  bottom: 10px;
+.board2 h2 {
+    color: rgb(36, 186, 159);
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 5px;
 }
+.board3 {
+    width: 255px;
+    height: 80px;
+}
+.summary .button {
+    position: absolute;
+    margin: 30px;
+    padding: 10px 50px;
+    left: 30px;
+    bottom: 10px;
+}
+
 /*
     FIFTH SECTION
 */
@@ -426,8 +441,8 @@ select{
     margin-left: 20px;
 }
 .agree p {
-  float: left;
-  color: grey;
+    float: left;
+    color: grey;
 }
 .send .button {
     padding: 15px 120px;
@@ -438,6 +453,7 @@ select{
 /*
     FOOTER
 */
+
 footer {
     color: grey;
     font-size: 16px;
